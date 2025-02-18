@@ -1,11 +1,11 @@
 public class Animal {
     private String nombre;
-    private String especie;
+    private String tipo;
     private String onomatopeya;
 
-    public Animal(String nombre, String especie, String onomatopeya) {
+    public Animal(String nombre, String tipo, String onomatopeya) {
         this.nombre = nombre;
-        this.especie = especie;
+        this.tipo = tipo;
         this.onomatopeya = onomatopeya;
     }
 
@@ -17,12 +17,12 @@ public class Animal {
         this.onomatopeya = onomatopeya;
     }
 
-    public String getEspecie() {
-        return especie;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setEspecie(String especie) {
-        this.especie = especie;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public String getNombre() {
